@@ -6,8 +6,7 @@
 </template>
 
 <script>
-import { getDatabase, ref, onValue} from "firebase/database";
-import MessageForm from "./MessageForm.vue"
+import { getDatabase, ref, onValue} from "firebase/database"
 export default {
     name: 'Sales',
     data () {
