@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Sales from './components/Sales.vue'
+import Home from './view/Home.vue'
 export default {
   name: 'App',
   components: {
-    Sales
+    Home
   }
 }
 </script>
