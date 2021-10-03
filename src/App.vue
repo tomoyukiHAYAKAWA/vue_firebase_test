@@ -6,10 +6,12 @@
 
 <script>
 import Sales from './components/Sales.vue'
+import MessageForm from './components/MessageForm.vue'
 export default {
   name: 'App',
   components: {
-    Sales
+    // Sales,
+    MessageForm
   }
 }
 </script>
