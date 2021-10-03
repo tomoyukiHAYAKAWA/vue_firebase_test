@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Sales from '@/components/Sales'
-import MessageForm from '@/components/MessageForm'
+import Home from '../view/Home.vue'
 
 Vue.use(Router)
 
@@ -9,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'MessageForm',
-      component: MessageForm
+      name: 'Home',
+      component: Home
     }
   ]
 })

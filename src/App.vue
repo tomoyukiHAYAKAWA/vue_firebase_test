@@ -5,13 +5,11 @@
 </template>
 
 <script>
-import Sales from './components/Sales.vue'
-import MessageForm from './components/MessageForm.vue'
+import Home from './view/Home.vue'
 export default {
   name: 'App',
   components: {
-    // Sales,
-    MessageForm
+    Home
   }
 }
 </script>

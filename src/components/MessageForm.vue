@@ -1,6 +1,5 @@
 <template>
 <dir>
-    <h1> hoge </h1>
     <section class="section">
         <div class="container">
             <!-- 名前の入力欄 -->
